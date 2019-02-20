@@ -1,0 +1,52 @@
+hr{
+  width: 100%;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+.App{
+
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+.Header{
+  margin: 35px 0;
+  position: relative;
+  h1{
+    font-size: 26px;
+    font-weight: 700;
+
+  }
+  .Header--contact{
+    font-weight: 700;
+    font-size: 16px;
+
+    a{
+      font-weight: 500;
+      color: #989595;
+      text-decoration: none;
+    }
+  }
+  .Header--profile-picture{
+    position: absolute;
+    transition:  transform 0.3s ease-in;
+    top: 0;
+    right: 20px;
+    height: 250px;
+    transform: rotate(-4deg);
+    &:hover{
+      transform: rotate(100deg);
+    }
+  }
+  .Header--summary{
+    width: 30em;
+    text-align: justify;
+    margin-top: 20px;
+
+  }
+
+
+
+}
