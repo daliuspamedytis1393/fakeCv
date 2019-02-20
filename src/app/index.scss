@@ -124,3 +124,13 @@ main{
    }
  }
 }
+.Footer{
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+
+  svg{
+    padding: 10px;
+  }
+
+}

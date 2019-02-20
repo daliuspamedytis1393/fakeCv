@@ -1,8 +1,10 @@
 import React from 'react';
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
 import './index.scss';
 
 function App() {
   return (
+    <React.Fragment>
     <div className="App">
       <header className="Header">
         <h1>Dalius Pamedytis</h1>
@@ -106,8 +108,17 @@ function App() {
 
           </div>
         </section>
+
       </main>
+
     </div>
+    <footer className='Footer'>
+      <FaGithubSquare/>
+      <FaLinkedin/>
+
+
+    </footer>
+    </React.Fragment>
   );
 }
 
