@@ -113,8 +113,8 @@ function App() {
 
     </div>
     <footer className='Footer'>
-      <FaGithubSquare/>
-      <FaLinkedin/>
+      <a href='http://www.github.com/daliuspamedytis1393' target='_blank' rel='noopener noreferrer'><FaGithubSquare/></a>
+      <a href='http://www.facebook.com/daliuspamedytis' target='_blank' rel='noopener noreferrer'><FaLinkedin/></a>
 
 
     </footer>
