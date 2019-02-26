@@ -1,0 +1,53 @@
+.Header{
+  margin: 35px 0;
+  position: relative;
+  h1{
+    font-size: 26px;
+    font-weight: 700;
+
+  }
+  .Header--contact{
+    font-weight: 700;
+    font-size: 16px;
+
+    a{
+      font-weight: 500;
+      color: #989595;
+      text-decoration: none;
+    }
+  }
+  .Header--profile-picture{
+    position: absolute;
+    opacity: 0.95;
+    background-size: cover;
+     background-position: center;
+     transition: all 0.5s ease;
+    top: 0;
+    right: 20px;
+    height: 250px;
+    transform: rotate(-4deg);
+
+    &:hover{
+
+      transform: scale(1.9);
+      opacity: 1;
+
+    }
+  }
+
+  .Header--summary{
+    width: 30em;
+    text-align: justify;
+    margin-top: 20px;
+
+  }
+
+  &--language-select{
+    position: absolute;
+    margin-top: -30px;
+    top: 0;
+    left: 0;
+  }
+
+
+}
